@@ -5,7 +5,7 @@ const router = new Router()
 
 
 router.get('/today', (req, res) => {
-    todoController.getCollectionOfTaskForToday(req, res)
+    todoController.getCollection(req, res)
 });
 
 export default router
